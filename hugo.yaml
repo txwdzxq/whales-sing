@@ -1,4 +1,54 @@
-baseURL: https://sing.whales.top/
+baseURL: https://whales.top/
 languageCode: en-us
 title: Whales Sing
-theme: hextra
+theme: typo
+
+
+taxonomies:
+  tag: 'tags'
+
+# Intro on main page, content is markdown
+homeIntroTitle: 'Hi!'
+homeIntroContent: "
+  I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
+  I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+  "
+
+# Collection to display on home
+homeCollectionTitle: 'Posts'
+homeCollection: 'posts'
+
+# Lists parameters
+paginationSize: 100
+listSummaries: true
+listDateFormat: '2 Jan 2006'
+
+
+params:
+  menu:
+    - name: "home"
+      url: "/"
+    - name: "posts"
+      url: "/posts"
+    - name: "about"
+      url: "/about"
+
+  breadcrumbs:
+    home: "~"
+    enabled: true
+    showCurrentPage: true
+
+  social:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/user"
+
+    - name: "medium"
+      url: "https://medium.com/@user"
+
+    - name: "github"
+      url: "https://github.com/user"
+
+
+markup:
+  highlight:
+    style: 'algol'
