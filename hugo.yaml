@@ -1,54 +1,130 @@
+title: Whales Sing
 baseURL: https://whales.top/
 languageCode: en-us
-title: Whales Sing
-theme: typo
+theme : ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
+module:
+  imports:
+    disable: false
+    ignoreConfig: false
+    ignoreImports: false
+    path: 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
-taxonomies:
-  tag: 'tags'
+DefaultContentLanguage: "English"
+SectionPagesMenu: "main"
+enableRobotsTXT: true
 
-# Intro on main page, content is markdown
-homeIntroTitle: 'Hi!'
-homeIntroContent: "
-  I am an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems.
-  I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
-  "
+languages:
+  English:
+    title: "Whales Sing"
+    weight: 1
+    contentDir: "content/en"
+    languageCode: 'en-US'
+  中文:
+    title: "鲸唱"
+    weight: 1
+    contentDir: "content/cn"
+    languageCode: 'zh-cn'
 
-# Collection to display on home
-homeCollectionTitle: 'Posts'
-homeCollection: 'posts'
-
-# Lists parameters
-paginationSize: 100
-listSummaries: true
-listDateFormat: '2 Jan 2006'
-
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
 
 params:
-  menu:
-    - name: "home"
-      url: "/"
-    - name: "posts"
-      url: "/posts"
-    - name: "about"
-      url: "/about"
+  text_color: ""
+  author: ""
+  favicon: ""
+  site_logo: ""
+  description: ""
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class: "bg-black"
+  recent_posts_number: 3
 
-  breadcrumbs:
-    home: "~"
-    enabled: true
-    showCurrentPage: true
+  ananke:
+    social:
+      share:
+        networks: [
+                    "x-twitter",
+                    "weibo",
+                    "tiktok",
+                  ]
+      follow:
+        networks: [
+                    "steam",
+                    "x-twitter",
+                    "discord",
+                    "reddit",
+                    "weibo",
+                    "tiktok",
+                    "youtube",
+                    "bilibili",
+                    "email",
+                    # "wikipedia",
+                  ]
 
-  social:
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/user"
+      networks:
+        steam:
+          slug: "steam"
+          label: "steam"
+          color: "#0645ad"
+          profile: "https://store.steampowered.com/"
+          icon: "steam"
 
-    - name: "medium"
-      url: "https://medium.com/@user"
+        x-twitter:
+          slug: "x-twitter"
+          label: "x-twitter"
+          color: "#0645ad"
+          profile: "https://x.com/"
+          icon: "x-twitter"
 
-    - name: "github"
-      url: "https://github.com/user"
+        discord:
+          slug: "discord"
+          label: "discord"
+          color: "#0645ad"
+          profile: "https://discord.com/"
+          icon: "discord"
+
+        reddit:
+          slug: "reddit"
+          label: "reddit"
+          color: "#0645ad"
+          profile: "https://www.reddit.com/"
+          icon: "reddit"
+
+        weibo:
+          slug: "weibo"
+          label: "Weibo"
+          color: "#0645ad"
+          profile: "https://weibo.com/"
+          icon: "weibo"
+
+        tiktok:
+          slug: "tiktok"
+          label: "tiktok"
+          color: "#0645ad"
+          profile: "https://www.tiktok.com"
+          icon: "tiktok"
+
+        youtube:
+          slug: "youtube"
+          label: "youtube"
+          color: "#0645ad"
+          profile: "https://www.youtube.com/"
+          icon: "youtube"
+
+        bilibili:
+          slug: "bilibili"
+          label: "bilibili"
+          color: "#0645ad"
+          profile: "https://www.bilibili.com/"
+          icon: "bilibili"
 
 
-markup:
-  highlight:
-    style: 'algol'
+
+        # wikipedia:
+        #   slug: "wikipedia"
+        #   label: "Wikipedia"
+        #   color: "#0645ad"
+        #   profile: "https://en.wikipedia.org/wiki/%s"
+        #   icon: "wikipedia-w"
