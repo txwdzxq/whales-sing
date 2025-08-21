@@ -1,30 +1,30 @@
 title: Whales Sing
 baseURL: https://whales.top/
 languageCode: en-us
-theme : ["github.com/theNewDynamic/gohugo-theme-ananke"]
 
 module:
   imports:
     disable: false
     ignoreConfig: false
     ignoreImports: false
-    path: 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+    path: "github.com/txwdzxq/gohugo-theme-ananke/v2"
+    branch: "txwdzxq-patch-1"
 
-DefaultContentLanguage: "English"
+DefaultContentLanguage: "en"
 SectionPagesMenu: "main"
 enableRobotsTXT: true
 
 languages:
-  English:
+  en:
+    languageName : "English"
     title: "Whales Sing"
     weight: 1
     contentDir: "content/en"
-    languageCode: 'en-US'
-  中文:
+  zh:
+    languageName : "中文"
     title: "鲸唱"
     weight: 1
     contentDir: "content/cn"
-    languageCode: 'zh-cn'
 
 sitemap:
   changefreq: "monthly"
