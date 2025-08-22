@@ -1,5 +1,5 @@
 ---
-title: "Articles"
+title: "文章"
 date: 2017-03-02T12:00:00-05:00
 ---
-Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the "pagination" setting in the config file.
+示例中文章采用分页展示，此处仅显示 3 篇帖子。你可以通过配置文件中的 “pagination”（分页）设置，调整本页面显示的条目数量。
