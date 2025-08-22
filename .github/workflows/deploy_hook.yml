@@ -1,0 +1,20 @@
+name: Call Secure Webhook on Push with GET
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  call-secure-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Authenticated GET Request
+        run: |
+          # 构建带查询参数的URL
+          base_url="${{ secrets.DEPLOY_URL }}"
+          full_url="${base_url}?event=${{ github.event_name }}&ref=${{ github.ref }}&repository=${{ github.repository }}&commit=${{ github.sha }}&sender=${{ github.actor }}&time=$(date +%s)"
+          
+          # 发送GET请求，可选添加认证头
+          curl -X GET \
+          "$base_url"
+          
