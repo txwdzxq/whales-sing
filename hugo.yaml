@@ -39,7 +39,7 @@ sitemap:
 params:
   text_color: ""
   author: ""
-  favicon: "favicon.ico"
+  favicon: "favicon.svg"
   # site_logo: "images/logo.svg"
   description: ""
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
