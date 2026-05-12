@@ -4,7 +4,7 @@ description: "."
 featured_image: '/images/background.png'
 menu:
   main:
-    weight: 1
+    weight: 2
 ---
 {{< figure src="/images/background.png" title="如履薄冰" >}}
 
