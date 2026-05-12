@@ -58,7 +58,7 @@ params:
                     # "tiktok",
                     "youtube",
                     "bilibili",
-                    "email",
+                    # "email",
                     # "wikipedia",
                   ]
 

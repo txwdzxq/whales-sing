@@ -8,4 +8,4 @@ menu:
 ---
 {{< figure src="/images/background.png" title="如履薄冰" >}}
 
-_情不知所起_ _一往而情深_ 再而衰 三而竭
+_情不知所起_ _一往而深_ 再而衰 三而竭
