@@ -20,8 +20,10 @@ profile.cov
 # Dependency directories (remove the comment below to include it)
 # vendor/
 public/
+resources/
 
 # Go workspace file
+.hugo_build.lock
 go.work
 go.work.sum
 

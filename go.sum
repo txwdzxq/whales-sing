@@ -1,2 +1,2 @@
-github.com/txwdzxq/gohugo-theme-ananke/v2 v2.12.3 h1:xmmxFtmBXxY777nQx2w3/5nYMNTyoe3B4eRKHLO8iyU=
-github.com/txwdzxq/gohugo-theme-ananke/v2 v2.12.3/go.mod h1:cY4tkCNrSZ1vSMqtAvPOgmazM/Sv2lE+7+/Waw06iOA=
+github.com/gohugo-ananke/ananke/v2 v2.13.0 h1:V/cUloKhL5aIqkmS10fDpCOMg+W8XMgDbX0qIewS0KQ=
+github.com/gohugo-ananke/ananke/v2 v2.13.0/go.mod h1:HLy3O8WIkY0EmkMryllP6ilZVvAWz1XsLnfYLuD7dvE=

@@ -1,14 +1,13 @@
 title: Whales Sing
 baseURL: https://whales.top/
-languageCode: en-us
+locale: en-us
 
 module:
   imports:
     disable: false
     ignoreConfig: false
     ignoreImports: false
-    path: "github.com/txwdzxq/gohugo-theme-ananke/v2"
-    branch: "txwdzxq-patch-1"
+    path: "github.com/gohugo-ananke/ananke/v2"
 
 DefaultContentLanguage: "en"
 SectionPagesMenu: "main"
@@ -16,12 +15,12 @@ enableRobotsTXT: true
 
 languages:
   en:
-    languageName : "English"
+    label : "English"
     title: "Whales Sing"
     weight: 1
     contentDir: "content/en"
   zh:
-    languageName : "中文"
+    label : "中文"
     title: "鲸唱"
     weight: 1
     contentDir: "content/cn"
@@ -119,8 +118,6 @@ params:
           color: "#0645ad"
           profile: "https://www.bilibili.com/"
           icon: "bilibili"
-
-
 
         # wikipedia:
         #   slug: "wikipedia"
