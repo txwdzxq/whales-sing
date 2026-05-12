@@ -1,6 +1,6 @@
 ---
 title: "关于"
-description: ""
+description: "."
 featured_image: '/images/background.png'
 menu:
   main:

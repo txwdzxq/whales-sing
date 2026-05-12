@@ -53,9 +53,9 @@ params:
                     "steam",
                     "x-twitter",
                     "discord",
-                    "reddit",
+                    # "reddit",
                     "weibo",
-                    "tiktok",
+                    # "tiktok",
                     "youtube",
                     "bilibili",
                     "email",
@@ -74,49 +74,49 @@ params:
           slug: "x-twitter"
           label: "x-twitter"
           color: "#0645ad"
-          profile: "https://x.com/"
+          profile: "https://x.com/UnroseGame"
           icon: "x-twitter"
 
         discord:
           slug: "discord"
           label: "discord"
           color: "#0645ad"
-          profile: "https://discord.com/"
+          profile: "https://discord.gg/JDYy98cB"
           icon: "discord"
 
-        reddit:
-          slug: "reddit"
-          label: "reddit"
-          color: "#0645ad"
-          profile: "https://www.reddit.com/"
-          icon: "reddit"
+        # reddit:
+        #   slug: "reddit"
+        #   label: "reddit"
+        #   color: "#0645ad"
+        #   profile: "https://www.reddit.com/"
+        #   icon: "reddit"
 
         weibo:
           slug: "weibo"
           label: "Weibo"
           color: "#0645ad"
-          profile: "https://weibo.com/"
+          profile: "https://weibo.com/u/7984961682"
           icon: "weibo"
 
-        tiktok:
-          slug: "tiktok"
-          label: "tiktok"
-          color: "#0645ad"
-          profile: "https://www.tiktok.com"
-          icon: "tiktok"
+        # tiktok:
+        #   slug: "tiktok"
+        #   label: "tiktok"
+        #   color: "#0645ad"
+        #   profile: "https://www.tiktok.com"
+        #   icon: "tiktok"
 
         youtube:
           slug: "youtube"
           label: "youtube"
           color: "#0645ad"
-          profile: "https://www.youtube.com/"
+          profile: "https://www.youtube.com/@unrosegame"
           icon: "youtube"
 
         bilibili:
           slug: "bilibili"
           label: "bilibili"
           color: "#0645ad"
-          profile: "https://www.bilibili.com/"
+          profile: "https://space.bilibili.com/3546863103904326"
           icon: "bilibili"
 
         # wikipedia:
